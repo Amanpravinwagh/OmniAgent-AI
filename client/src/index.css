@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#030712] text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white min-h-screen;
+  }
+}
+
+/* Glowing text gradients & blur effects */
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-sky-300 to-emerald-400;
+}
+
+.glow-btn {
+  box-shadow: 0 0 25px -5px rgba(99, 102, 241, 0.5);
+}
