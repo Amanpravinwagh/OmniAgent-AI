@@ -95,3 +95,6 @@ Chat & Agent
 POST /api/chat/message — Process user prompt with attached PDF files, multi-turn history, and live web grounding.
 
 GET /api/chat/history — Fetch user chat history.
+
+<img width="1916" height="987" alt="image" src="https://github.com/user-attachments/assets/725240d7-9dc3-4713-ac86-2a7690b1fd02" />
+
